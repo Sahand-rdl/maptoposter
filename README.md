@@ -26,10 +26,14 @@ Generate beautiful, minimalist map posters for any city in the world.
 pip install -r requirements.txt
 ```
 
-## Usage
+## My Contributions & Enhancements
+In this fork, I have implemented several professional-grade features to enhance the quality and versatility of the generated posters:
 
-```bash
-python create_map_poster.py --city <city> --country <country> [options]
+- **Landscape Orientation**: Added support for landscape layouts (`--orientation landscape`), ideal for wide-format printing.
+- **PDF/Vector Export**: Automatic generation of high-quality PDF files alongside PNGs, ensuring posters remain crisp at any print size.
+- **Premium Pinning System**: Implemented a "soft halo" coordinate marker (using a vibrant red center with an alpha-blended glow) to mark specific locations with style.
+- **Optimized Hierarchy Rendering**: Refined the road type hierarchy to ensure better visual balance between major highways and residential streets.
+
 ```
 
 ### Options
