@@ -1,6 +1,15 @@
+# Personal Private Maps (Ignore these)
+posters/aachen*
+posters/tehran*
+posters/tabriz*
+posters/isfahan*
+
+# Ignore any newly generated posters but keep defaults
+# posters/*.png
+# posters/*.pdf
+
 # Maps & Data
 cache/*
-posters/
 
 # Environment & Config
 .env
